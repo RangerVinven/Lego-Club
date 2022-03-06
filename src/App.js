@@ -5,7 +5,7 @@ import ImageAndText from "./components/ImageAndText";
 
 function App() {
   return (
-    <div className="App">
+    <div className="overflow-hidden">
       <Navbar />
       <ImageAndText />
     </div>
