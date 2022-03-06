@@ -1,10 +1,14 @@
 import "./ImageAndText.css";
 import React from "react";
 
+import LegoBlockImage from "./LegoBlockImage";
+import WelcomeText from "./WelcomeText";
+
 function template() {
   return (
-    <div className="image-and-text">
-      <h1>ImageAndText</h1>
+    <div className="flex justify-center h-screen my-48">
+      <LegoBlockImage />
+      <WelcomeText />
     </div>
   );
 };
