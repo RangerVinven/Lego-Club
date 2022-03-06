@@ -6,7 +6,7 @@ import WelcomeText from "./WelcomeText";
 
 function template() {
   return (
-    <div className="flex justify-center h-screen my-48">
+    <div className="flex justify-center h-max my-52">
       <LegoBlockImage />
       <WelcomeText />
     </div>
